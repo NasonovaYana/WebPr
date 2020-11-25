@@ -1,0 +1,59 @@
+body{
+    background-color: beige;
+}
+
+.menu{
+    list-style-type: none;
+    display: inline;
+    margin-left: 5px;
+}
+.menu li {
+    display: inline;
+    margin-right: 10px;
+    border: 1px solid #000;
+    padding: 2px;
+}
+.mn {
+    color: #261616;
+    text-decoration: none;
+}
+
+.title {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.short {
+    font-size: 14ps;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.long {
+    color: #484343;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.char {
+    list-style-image: url(ulpic.png);
+}
+.char li{
+    font-family: cursive;
+    font-size: 17px;
+}
+
+.staf {
+    border: 3px solid #dea971;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    color: #484343;
+}
+
