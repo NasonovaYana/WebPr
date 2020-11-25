@@ -2,20 +2,44 @@ body{
     background-color: beige;
 }
 
+.up{
+    display: inline;
+    float: right;
+}
 .menu{
     list-style-type: none;
     display: inline;
-    margin-left: 5px;
+    padding-inline-start: 10px;
+    position: relative;
+    margin-top: 10px;
 }
+
 .menu li {
     display: inline;
     margin-right: 10px;
     border: 1px solid #000;
     padding: 2px;
 }
+
+
 .mn {
     color: #261616;
     text-decoration: none;
+}
+.mn:hover {
+    text-decoration: none; 
+    color: #fff; 
+    background: #73503c; 
+   }
+.menu li:hover{
+     background: #73503c;
+}
+
+/*ПОЧТА ВВОД ЦВЕТНОЙ*/
+.em:focus{
+    background: #f0e5a5;
+    color: white;
+
 }
 
 .title {
@@ -24,6 +48,11 @@ body{
     font-weight: 400;
 }
 
+.long:first-letter{
+    font-size: 30px;
+    font-weight: 300;
+    color: #4d2f04;
+}
 .short {
     font-size: 14ps;
     font-style: italic;
@@ -38,6 +67,11 @@ body{
     text-align: left;
 }
 
+/*Ввод с большой буквы*/
+input{
+  text-transform: capitalize;  
+}
+
 .char {
     list-style-image: url(ulpic.png);
 }
@@ -47,7 +81,10 @@ body{
 }
 
 .staf {
-    border: 3px solid #dea971;
+    border: 3px solid white;
+}
+.staf:hover{
+    border: 3px solid transparent;
 }
 
 input {
@@ -55,5 +92,30 @@ input {
     height: 30px;
     font-size: 15px;
     color: #484343;
+}
+
+.logo {
+    display: inline;
+    padding-right: 15px;
+}
+
+.focus{
+   border:  3px solid transparent;
+}
+
+.focus:hover{
+   border:  3px solid white;
+}
+/*Внешняя граница таблицы*/
+table {
+border : 1px solid #000;
+border-collapse : collapse;
+}
+/*Границы для ячеек таблицы*/
+td {
+border : 1px solid #000;
+}
+.ftr{
+    height: 35px;
 }
 
