@@ -1,0 +1,242 @@
+
+body{
+    background-color: beige;
+font-family: montserrat;}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:none;
+    color: beige;
+}
+    .mark1{
+        font-family: montserrat;
+    }
+
+.navbar {
+    padding-top: 10px;
+    font-family: montserrat;
+    font-size: 12px;
+  overflow: hidden;
+}
+
+.footer { 
+    text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  height: 30px; 
+}
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: #694a1d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    border: solid 1px #ebc68f;
+}
+
+    main{
+text-align: center;
+    }
+.dropdown {
+  float: right;
+  overflow: hidden;
+    border: solid 1px #ebc68f;
+}
+.mark{
+    font-family: montserrat;
+}
+.mark1{
+    padding-top: 100px;
+    font-family: montserrat;
+}
+    .mark2{
+    padding-top: 5px;
+    font-family: montserrat;
+}
+.title1{
+    font-family: montserrat;
+    font-size: 100px;
+    font-weight: 300;
+    margin-top: 50px;
+    color: #a6774b;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+.dropdown .dropbtn {
+    border: solid 1px #ebc68f;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color:#694a1d;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: burlywood;
+    text-decoration: none;
+    color: beige;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+background-color: beige;
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #d9bf98;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.mark{
+    background-color: beige;
+    font-family: montserrat;
+}
+.mark1{
+    padding-top: 10px;
+    font-family: montserrat;
+}
+.title1{
+    font-family: montserrat;
+    font-size: 100px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+
+.inner{
+    margin-top: 150px;
+}
+.down{
+    margin-top: 80px;
+}
+
+.up{
+    display: inline;
+    float: right;
+}
+.menu{
+    list-style-type: none;
+    display: inline;
+    padding-inline-start: 10px;
+    position: relative;
+    margin-top: 10px;
+    font-family: montserrat;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 10px;
+    border: 1px solid #000;
+    padding: 2px;
+}
+
+
+.mn {
+    color: #261616;
+    text-decoration: none;
+}
+.mn:hover {
+    text-decoration: none; 
+    color: #fff; 
+    background: #73503c; 
+   }
+.menu li:hover{
+     background: #73503c;
+}
+
+/*ПОЧТА ВВОД ЦВЕТНОЙ*/
+.em:focus{
+    background: #f0e5a5;
+    color: white;
+
+}
+
+.title {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.long:first-letter{
+    font-size: 30px;
+    font-weight: 300;
+    color: #4d2f04;
+}
+.short {
+    font-size: 14ps;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.long {
+    color: #484343;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+/*Ввод с большой буквы*/
+input{
+  text-transform: capitalize;  
+}
+
+.char {
+    list-style-image: url(ulpic.png);
+}
+.char li{
+    font-family: cursive;
+    font-size: 17px;
+}
+
+.staf {
+    border: 3px solid white;
+}
+.staf:hover{
+    border: 3px solid transparent;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    color: #484343;
+}
+
+.logo {
+    display: inline;
+    padding-right: 15px;
+}
+
+/*.focus{
+   border:  3px solid transparent;
+}
+
+.focus:hover{
+   border:  3px solid white;
+}
+*/
+
